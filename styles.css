@@ -1,0 +1,77 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    background-image: url('bgf.jpg'); /* Replace with your image file */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment: fixed; /* Fix the background image */
+    background-position: center; /* Center the image */
+}
+
+.container {
+    max-width: 800px;
+    margin: 25px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.7); /* Add a semi-transparent background to make text readable */
+}
+
+h1 {
+    color: #333;
+    font-family: "Lato", sans-serif;
+}
+
+#task-input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#add-task {
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none; /* Fixed the missing 'none' in border property */
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    font-style: normal;
+    margin: 20px;
+}
+
+li {
+    display:flex;
+    justify-content: space-around; /* Adjusted to space evenly between elements */
+    align-items:center; 
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(149, 230, 230);
+    border-radius: 5px;
+}
+
+.delete-task {
+    background-color: #ff4141;
+    color: #fff;
+    border: none; /* Fixed the missing 'none' in border property */
+    cursor: pointer;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 18px;
+}
