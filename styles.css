@@ -104,7 +104,7 @@ header {
     justify-items:center;
 }
 .edu{
-    background-image: url(./Assets/bg.png);
+    background-image: url(./bg.png);
     background-repeat: no-repeat;
     background-position: right;
     max-width: 800px;
